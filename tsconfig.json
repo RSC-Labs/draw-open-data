@@ -1,0 +1,22 @@
+{
+    "include": [
+      "src",
+      "datasets/**/src"
+    ],
+    "exclude": [
+      "node_modules",
+      "./dist/**/*"
+    ],
+    "compilerOptions": {
+      "outDir": "./dist",
+      "lib": ["ES2019", "dom"],
+      "rootDir": ".",
+      "target": "ES2019",
+      "module": "commonjs",
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "allowJs": true,
+      "resolveJsonModule": true
+    }
+}

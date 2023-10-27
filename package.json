@@ -1,0 +1,33 @@
+{
+  "name": "see-open-data",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "dist/index.cjs.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSC-Labs/see-open-data.git"
+  },
+  "author": "RSC-Labs",
+  "license": "Apache-2.0",
+  "preferGlobal": true,
+  "engines": {
+    "node": "18 || 20"
+  },
+  "bin": {
+    "see-open-data": "./dist/index.cjs.js"
+  },
+  "bugs": {
+    "url": "https://github.com/RSC-Labs/see-open-data/issues"
+  },
+  "homepage": "https://github.com/RSC-Labs/see-open-data#readme",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "commander": "^11.1.0",
+    "csv-parse": "^5.5.2",
+    "fs-extra": "^11.1.1"
+  }
+}
