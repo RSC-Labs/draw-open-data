@@ -1,0 +1,19 @@
+{
+  "name": "draw-open-data",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSC-Labs/draw-open-data.git"
+  },
+  "author": "RSC-Labs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RSC-Labs/draw-open-data/issues"
+  },
+  "homepage": "https://github.com/RSC-Labs/draw-open-data#readme"
+}
