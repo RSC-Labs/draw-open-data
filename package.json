@@ -1,8 +1,9 @@
 {
-  "name": "draw-open-data",
+  "name": "see-open-data",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "types": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +13,21 @@
   },
   "author": "RSC-Labs",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/RSC-Labs/draw-open-data/issues"
+  "preferGlobal": true,
+  "engines": {
+    "node": "18 || 20"
   },
-  "homepage": "https://github.com/RSC-Labs/draw-open-data#readme",
+  "bin": {
+    "see-open-data": "./dist/index.cjs.js"
+  },
+  "bugs": {
+    "url": "https://github.com/RSC-Labs/see-open-data/issues"
+  },
+  "homepage": "https://github.com/RSC-Labs/see-open-data#readme",
   "dependencies": {
+    "commander": "^11.1.0",
     "csv-parse": "^5.5.2",
-    "fs-extra": "^11.1.1"
+    "fs-extra": "^11.1.1",
+    "@types/node": "^20.8.9"
   }
 }

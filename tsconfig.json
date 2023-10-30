@@ -1,6 +1,7 @@
 {
     "include": [
-      "./**/src",
+      "src",
+      "datasets/**/src"
     ],
     "exclude": [
       "node_modules",
