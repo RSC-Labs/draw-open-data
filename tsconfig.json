@@ -17,5 +17,6 @@
       "moduleResolution": "node",
       "importHelpers": true,
       "allowJs": true,
+      "resolveJsonModule": true
     }
 }

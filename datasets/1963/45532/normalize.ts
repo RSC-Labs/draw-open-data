@@ -1,7 +1,7 @@
-import { readFileSync, writeFileSync } from 'fs-extra';
+import { readFileSync } from 'fs-extra';
 import { parse } from 'csv-parse/sync';
 
-export function normalize(pathToData: string) {
+export function normalize(pathToData: string): Map<string, any> {
 
   const recordName = "liczba uczniów";
 
