@@ -45,9 +45,7 @@ Najłatwiej jest użyć dostępnych już funkcji generacji danych do wizualizacj
 
 Odpalenie komendy:
 
-<code>
-ts-node results/education/students-from-ukraine.ts studentsFromUkraine.csv allStudents.csv
-</code>
+<code>ts-node results/education/students-from-ukraine.ts studentsFromUkraine.csv allStudents.csv</code>
 
 wygeneruje plik Regions.json. 
 
