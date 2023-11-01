@@ -1,12 +1,8 @@
-import { readFileSync } from 'fs-extra';
-import { parse } from 'csv-parse/sync';
+import { readCsv } from '../../../utils/csvReader';
 
 export function normalize(pathToData: string) : Map<string, any> {
-    const data = readFileSync(pathToData);
-    const records = parse(data, {
-      columns: true,
-      skip_empty_lines: true,
-    });
+    
+    const records = readCsv(pathToData);
   
     const recordName = 'liczba uczniów ogółem';
   

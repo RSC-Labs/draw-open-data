@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs-extra';
-import { FlourishColumnNames } from './../../utils/types';
+import { FlourishColumnNames } from '../../utils/types';
 import * as getAllStudents from '../../datasets/212/45734/normalize';
 import * as getUkraineStudents from '../../datasets/2711/52039/normalize';
 
@@ -13,9 +13,9 @@ async function generate(pathToData: string, pathToHelpData: string) {
     resultData.push({
         terytId: provinceStudentInHome[0],
         name: provinceStudentInHome[1].name,
-        ['Liczba uczniów ogółem']: provinceStudents.get(provinceStudentInHome[0]),
-        ['Liczba uczniów z Ukrainy']: provinceUkraineStudents.get(provinceStudentInHome[0]).value,
-        ['% uczniów z Ukrainy']: parseInt(provinceUkraineStudents.get(provinceStudentInHome[0]).value) / provinceStudents.get(provinceStudentInHome[0]) * 100
+        ['Liczba uczniów ogółem']: provinceStudents.get(provinceStudentInHome[0]).toString(),
+        ['Liczba uczniów z Ukrainy']: provinceUkraineStudents.get(provinceStudentInHome[0]).value.toString(),
+        ['% uczniów z Ukrainy']: (parseInt(provinceUkraineStudents.get(provinceStudentInHome[0]).value) / provinceStudents.get(provinceStudentInHome[0]) * 100).toString()
     });
   }
 

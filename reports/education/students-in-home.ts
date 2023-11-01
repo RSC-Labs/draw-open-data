@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs-extra';
-import { FlourishColumnNames } from './../../utils/types';
+import { FlourishColumnNames } from '../../utils/types';
 import * as getAllStudents from '../../datasets/212/45734/normalize';
 import * as getStudentsInHome from '../../datasets/1963/45532/normalize';
 
