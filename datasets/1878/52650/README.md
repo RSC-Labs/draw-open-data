@@ -1,0 +1,2 @@
+# Dane
+https://dane.gov.pl/pl/dataset/1878/resource/52650,informacja-o-udziaach-jednostek-samorzadu-terytorialnego-w-podatku-cit-w-okresie-od-01-stycznia-do-30-wrzesnia-2023-r/table?page=1&per_page=20&q=&sort=

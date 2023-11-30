@@ -3,6 +3,11 @@ English on request
 
 see-open-data to projekt stworzony, aby w łatwy sposób przedstawiać i wizualizować dane pochodzące z www.dane.gov.pl.
 
+Przykłady:
+https://public.flourish.studio/visualisation/15959761/
+https://public.flourish.studio/visualisation/15798657/
+https://public.flourish.studio/visualisation/15686678/
+
 #### Po co to?
 
 Dane znajdujące się na www.dane.gov.pl mają różne struktury, różne formaty oraz przedstawiają jedynie wycinek rzeczywistości. Przykładowo jesteśmy w jednym miejscu pobrać informację o liczbie uczniów w każdym województwie, natomiast w innym miejscu o liczbie uczniów uczących się w domu. Aby pokazać jaki jest stosunek liczby uczniów uczących się w domu do liczby uczniów w województwie musimy pobrać obie dane oraz odpowiednio je zmanipulować, a jeśli chcemy, następnie jest przedstawić.
