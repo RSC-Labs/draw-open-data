@@ -20,6 +20,7 @@ async function generate(pathToData: string) {
         terytId: examsResult[0],
         ['Województwo']: getWojewodztwoFromTerytId(examsResult[0]),
         ['Rożnica']:  valueForSubjectIn2023.value - valueForSubjectIn2019.value,
+        ['Rożnica w %']:  valueForSubjectIn2023.value - valueForSubjectIn2019.value,
         ['% 2019']: `${valueForSubjectIn2019.value}%`,
         ['% 2023']: `${valueForSubjectIn2023.value}%`,
         ['Przedmiot']: SUBJECT,
