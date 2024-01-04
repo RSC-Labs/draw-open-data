@@ -1,4 +1,5 @@
 **/node_modules/
 dist
 *.csv
+!other_data/teryt/*.csv
 Regions.json
